@@ -46,7 +46,7 @@ function Home() {
     }
   };
 
-  // map out JSX for to display all decks retreived as stylized cards
+  // map out JSX for to display all decks retrieved as stylized cards
   const styledDecks = decks.map((deck) => (
     <div
       key={deck.id}
